@@ -6,7 +6,7 @@ Aplicando Debounce no botão:
 <h3>Figura 1: Circuito no Tinkercade</h3>	
 <img width="1263" height="545" alt="Image" src="https://github.com/user-attachments/assets/a89f23be-dacd-4385-a058-538c1f86ab81" />
 <div align="center">
-<h4>Fonte: Circuito Autoral</h4>;
+<h4>Fonte: Circuito Autoral</h4>/>
 
 O botão debounce é uma aplicação que permite maior controle no circuito, realizar várias funções dentro do código utilizando um único botão, permitindo um circuito menor com várias funcionalidades, o exemplo é o que vai ser montado e explicado neste documento. 
 
