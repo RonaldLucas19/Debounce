@@ -22,3 +22,8 @@ O botão debounce é uma aplicação que permite maior controle no circuito, rea
 # Circuito:
 Nesta parte, utilizaremos o led rgb que nos permite entender melhor a lógica e ter uma visualização melhor do funcionamento proposto para o circuito.
 
+<div align="center">
+<h3>Figura 1: Circuito no Tinkercad</h3>	
+<img width="1263" height="545" alt="Image" src="https://github.com/user-attachments/assets/a89f23be-dacd-4385-a058-538c1f86ab81" />
+<h4>Fonte: Circuito autoral </h4>
+</div>
