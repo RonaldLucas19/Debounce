@@ -40,14 +40,16 @@ Bom pessoal, se realizaram todos os passos acima corretamente, o circuito já es
 
 Agora, para tornar nossa explicação e demonstração mais interativa, para que vocês entendam explicaremos o passo a passo que foi utilizado em nosso código.
 
+```cpp
 int contador = 0;
 const int botao_led = 10;
 const int led_V = 4;
 const int led_B = 5;
 const int led_G = 5;
-
+```
 Para iniciar o nosso código e garantir o funcionamento das constantes necessárias para o circuito, iremos definir essas constantes que iremos utilizar ao decorrer do nosso código. Para definir, iremos utilizar o comando “#define” para avisar ao nosso código que iremos definir algo que não vai mudar ao longo do código, tornando mais fácil realizar o restante da programação. Com isso, começamos definindo o valor inicial do contador em zero, para que não tenha o risco do nosso circuito começar em outro valor, fazendo com que o código não seja eficiente e prático. Depois,  definimos os nomes dos componentes por meio de uma variável para o botão (botao_led) e para os leds leds (led_V, led_B, led_G) e sua respectiva porta digital, que é o local onde se conecta os jumpers no arduino.  
 
+```cpp
 void setup()
 {
     Serial.begin(9600);	
@@ -56,9 +58,11 @@ void setup()
     pinMode(led_B, OUTPUT);
     pinMode(led_G, OUTPUT);
 }
+```
 
 No void setup, através do “Serial.begin” vamos realizar a comunicação com o monitor serial, para facilitar a observação do funcionamento do circuito e realizar o monitoramento do circuito, facilitando a aprendizagem e a explicação para outras pessoas. Também é necessário definir os botões como entrada, ou seja, eles irão enviar um comando para o Arduino, e definir os leds como saída, ou seja, eles vão receber um comando do Arduino como as demais, porém como essas portas foram definidas como “OUTPUT”, torna-se possível a demonstração em forma de luz, no nosso caso, mas poderia ser em forma de som ou algum movimento também e, para que isso seja possível,  utilizamos a função pinMode () e dentro dela escrevemos o nome da constante e seu o seu tipo de dado.
 
+```cpp
 	void loop()
 {
 	if(digitalRead(botao_led)==1){
@@ -88,6 +92,7 @@ No void setup, através do “Serial.begin” vamos realizar a comunicação com
 	  contador = 0;
 }
 }
+```
 
 No void loop, fazemos cinco condições utilizando a função “if”, que no português significa “se”. E, foi utilizada a função “while”, que no português significa “enquanto”. Na primeira condição, se o “botao_led” for pressionado e enquanto ele for pressionado, o botão deve ir incrementando 1 na soma do contador, para que as condições que foram criadas, sejam utilizadas.
 
