@@ -11,14 +11,14 @@
 O botão debounce é uma aplicação que permite maior controle no circuito, realizar várias funções dentro do código utilizando um único botão, permitindo um circuito menor com várias funcionalidades, o exemplo é o que vai ser montado e explicado neste documento. 
 
 # Materiais Necessários:
-- **Protoboard (Placa de ensaio);
-- **1 resistor de 1KΩ;
-- **2 resistores de 330Ω;
-- **1 botão;
-- **1 arduino;
-- **1 led rgb;
-- **Jumper macho-macho.
+- Protoboard (Placa de ensaio);
+- 1 resistor de 1KΩ;
+- 2 resistores de 330Ω;
+- 1 botão;
+- 1 arduino;
+- 1 led rgb;
+- Jumper macho-macho.
 
-## Circuito:
-	Nesta parte, utilizaremos o led rgb que nos permite entender melhor a lógica e ter uma visualização melhor do funcionamento proposto para o circuito.
+# Circuito:
+Nesta parte, utilizaremos o led rgb que nos permite entender melhor a lógica e ter uma visualização melhor do funcionamento proposto para o circuito.
 
