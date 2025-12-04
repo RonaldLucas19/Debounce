@@ -10,7 +10,7 @@ Aplicando Debounce no botão:
 
 O botão debounce é uma aplicação que permite maior controle no circuito, realizar várias funções dentro do código utilizando um único botão, permitindo um circuito menor com várias funcionalidades, o exemplo é o que vai ser montado e explicado neste documento. 
 
-Materiais Necessários:
+Materiais Necessários
 Protoboard (Placa de ensaio);
 1 resistor de 1KΩ;
 2 resistores de 330Ω;
