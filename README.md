@@ -61,7 +61,7 @@ No void setup, através do “Serial.begin” vamos realizar a comunicação com
 
 	void loop()
 {
-   if(digitalRead(botao_led)==1){
+	if(digitalRead(botao_led)==1){
 	while(digitalRead(botao_led)==1){ }
 	contador++;
 	Serial.println(contador);
